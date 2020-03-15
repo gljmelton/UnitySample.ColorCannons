@@ -58,3 +58,21 @@ if (turning) {
 }
 ```
 This code lives in the update loop, and eases the players cannon toward the target angle.
+
+## Map shader and material
+Color Cannons+ has a handful of maps made using Unity's new tilemap tools and a custom shader. Each map is made from one tileset that looks like this:
+
+![tilemap](https://github.com/gljmelton/UnitySample.ColorCannons/blob/master/Images/tileset.JPG?raw=true)
+
+My custom shader, made in Amplify Shader Editor, replaces the colors in the tileset with new textures and colors. Here's a look at the shader:
+
+![shader](https://github.com/gljmelton/UnitySample.ColorCannons/blob/master/Images/MapShader.JPG?raw=true)
+
+and a look at the material inspector:
+
+![material](https://github.com/gljmelton/UnitySample.ColorCannons/blob/master/Images/material%20inspector.JPG?raw=true)
+
+What this allows for is a scrolling texture and outline that makes the map look like it's made of larger contiguous chunks of different types of walls all made from the same shader. Here's what a finished map looks like in the scene view:
+
+![map](https://github.com/gljmelton/UnitySample.ColorCannons/blob/master/Images/maps.JPG?raw=true)
+
