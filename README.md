@@ -2,7 +2,7 @@
 
 For a look at what Color Cannons+ is I reccomend you check out [Color Cannons+ on itch.io](https://symptomatic.itch.io/color-cannons) to at least get familiar with what the game looks like. Here I'm going to go over some bits of code from the game.
 
-## Movement
+## Turning
 
 Movement in Color Cannons+ is large physics driven but mechanics like turning are more deterministic. Here's a look at the system for turning the players:
 
